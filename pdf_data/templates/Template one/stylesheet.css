@@ -1,0 +1,66 @@
+body {
+    background: #fff;
+    /*background-image: url('../../../admin/controller/ovologics/pdf_data/templates/template_one/img/bg.jpg');*/
+}
+.header .logo {
+    width: 15px;
+}
+.product {
+    padding: 30px 40px 30px 40px;
+    width: 794px;
+    height: 290px;
+    background: #fff;
+    overflow: auto;
+}
+.description {
+    float: left;
+    width: 400px;
+    height: 250px;
+    color: #6b6b6b;
+    font-size: 14px;
+    padding-top: 5px;
+    text-align: justify;
+}
+.name {
+    float: right;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    color: #00bcf1;
+}
+.image {
+    margin: 5px 100px 0 0;
+    float: right;
+    width: 200px;
+    height: 230px;
+    z-index: 0;
+}
+.price {
+    float: right;
+    width: 150px;
+    height: 40px;
+    margin-right: -290px;
+    margin-top: -210px;
+    text-align: center;
+    font-size: 21px;
+    background-image: url("../admin/controller/ovologics/pdf_data/templates/template one/img/price_bg.png");
+}
+.special {
+    float: right;
+    width: 150px;
+    height: 40px;
+    margin-right: -280px;
+    margin-top: -170px;
+    text-align: center;
+    font-size: 21px;
+}
+.info {
+    border-bottom: 1px solid #000;
+}
+.manufacturer {
+    float: left;
+    width: 230px;
+}
+.code {
+    float: right;
+}

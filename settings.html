@@ -1,0 +1,81 @@
+
+        <div class=\"content_categories_list\">
+            <div class=\"header header_title\">
+                <input id=\"cat\" type=\"checkbox\" checked=\"checked\">Categories            </div>
+            <div class=\"categories_list scrollbox\">
+                                                                                
+                    <div class=\"alternate\">
+                                                <input type=\"checkbox\" name=\"category_id[]\" value=\"6\" checked=\"checked\">
+                        Cat 1                    </div>
+                                                                
+                    <div class=\"odd\">
+                                                <input type=\"checkbox\" name=\"category_id[]\" value=\"7\" disabled=\"disabled\">
+                        Cat 2                    </div>
+                                                                
+                    <div class=\"alternate\">
+                        <span></span>                        <input type=\"checkbox\" name=\"category_id[]\" value=\"8\" disabled=\"disabled\">
+                        Cat 3                    </div>
+                            </div>
+        </div>
+        <div class=\"div_template_list\">
+            <div class=\"title_template\">
+                Templates                <div id=\"settings\" title=\"\" class=\"settings_disable\"></div>
+            </div>
+            <div class=\"template_list scrollbox\">
+                                        <div class=\"templates\">
+                    <div class=\"template_name\">
+                        <input type=\"radio\" name=\"template\" value=\"Template four\" id=\"Template four\" checked=\"checked\">
+                        <label for=\"Template four\"> Template four </label>
+                    </div>
+                    <label for=\"Template four\">
+                        <img src=\"http://pdfcatalog-woocomerce.com/wp-content/plugins/pdfcatalog//pdf_data/templates/Template four/icon.png\" alt=\"\" title=\"\"><br>
+                    </label>                            
+                </div>
+                                            <div class=\"templates\">
+                    <div class=\"template_name\">
+                        <input type=\"radio\" name=\"template\" value=\"Template one\" id=\"Template one\">
+                        <label for=\"Template one\"> Template one </label>
+                    </div>
+                    <label for=\"Template one\">
+                        <img src=\"http://pdfcatalog-woocomerce.com/wp-content/plugins/pdfcatalog//pdf_data/templates/Template one/icon.png\" alt=\"\" title=\"\"><br>
+                    </label>                            
+                </div>
+                                            <div class=\"templates\">
+                    <div class=\"template_name\">
+                        <input type=\"radio\" name=\"template\" value=\"Template three\" id=\"Template three\">
+                        <label for=\"Template three\"> Template three </label>
+                    </div>
+                    <label for=\"Template three\">
+                        <img src=\"http://pdfcatalog-woocomerce.com/wp-content/plugins/pdfcatalog//pdf_data/templates/Template three/icon.png\" alt=\"\" title=\"\"><br>
+                    </label>                            
+                </div>
+                                            <div class=\"templates\">
+                    <div class=\"template_name\">
+                        <input type=\"radio\" name=\"template\" value=\"Template two\" id=\"Template two\">
+                        <label for=\"Template two\"> Template two </label>
+                    </div>
+                    <label for=\"Template two\">
+                        <img src=\"http://pdfcatalog-woocomerce.com/wp-content/plugins/pdfcatalog//pdf_data/templates/Template two/icon.png\" alt=\"\" title=\"\"><br>
+                    </label>                            
+                </div>
+                                        </div>
+        </div>
+        <div id=\"overlay\">
+            <div class=\"dialog\" style=\"margin-top: -90px; margin-left: -140px;\">
+                <div class=\"dialog_close\"></div>
+                <div class=\"dialog_content\">
+                    <div class=\"dialog_title\">Template settings:</div>
+                    <div class=\"template_options\"></div>
+                    <div style=\"float: left;margin: 22px 0 0 26px;\"><input type=\"checkbox\" name=\"\" id=\"show_before\"><label for=\"show_before\"> Show before Generating PDF</label></div>
+                    <div class=\"buttons\" style=\"float: right; margin: 20px 30px 20px 0px;\"><a onclick=\"setOptions();closeDialog();\" class=\"button\">Save</a></div>
+                </div>
+            </div>
+        </div>
+        <input type=\"hidden\" name=\"min\" value=\"0\">
+        <input type=\"hidden\" name=\"max\" value=\"0\">
+        <input type=\"hidden\" name=\"data_type\" value=\"categories\">
+        <input type=\"hidden\" name=\"action\" value=\"http://pdfcatalog-woocomerce.com/wp-admin/admin.php?page=pdfcatalog\">
+        <input type=\"hidden\" name=\"template_options_open_help\" value=\"Click Here to Open Settings for\">
+        <input type=\"hidden\" name=\"template_options_not_available_help\" value=\"Settings Not Available for\">
+        <form id=\"send_data\" method=\"post\" target=\"_blank\" style=\"display: none;\"></form>
+    

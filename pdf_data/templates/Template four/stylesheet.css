@@ -1,0 +1,70 @@
+.product {
+    padding: 0px;
+    width: 360px;
+    height: 340px;
+    overflow: auto;
+    float: left;
+    margin: 0 0 10px 10px;
+    font-family: Arial;
+}
+.image {
+    width: 220px;
+    height: 200px;
+    margin: -19px 0 0 0px;
+    text-align: center;
+    float: left;
+    background: #fff;
+    border: 1px solid #eceff1;
+}
+.right_blick {
+    background: #4676bd;
+    height: 200px;
+}
+.right_blick {
+    float: right;
+}
+.name {
+    width: 100%;
+    background: #000;
+    margin-top: 0px;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 8px;
+    height: 10px;
+    overflow: hidden;
+    color: #fff;
+}
+.price {
+    height: 35px;
+    background: #b1281b;
+    text-align: center;
+    font-size: 22px;
+    margin: 10px;
+    color: #fff;
+    padding-top: 5px;
+}
+.special {
+    height: 30px;
+    text-align: right;
+    font-size: 20px;
+    margin: 110px 10px 0px 0px;
+    color: #fff;
+}
+.model {
+    width: 100%;
+    background: #30a9f3;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 0px;
+    padding-left: 8px;
+    float: left;
+}
+.description {
+    width: 100%;
+    height: 97px;
+    padding: 0px 8px 0px 8px;
+    background: #6cbbec;
+    color: #fff;
+    font-size: 14px;
+    text-align: justify;
+}
