@@ -1,6 +1,6 @@
 <?php
 define( 'PDF_CATALOG_PLUGIN_NAME', 'PDF Catalog' );
-define( 'PDF_CATALOG_VERSION', '1.0.2' );
+define( 'PDF_CATALOG_VERSION', '1.0.4' );
 define( 'PDF_CATALOG__MINIMUM_WP_VERSION', '3.1' );
 define( 'PDF_CATALOG__PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 define( 'PDF_CATALOG__PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
@@ -40,7 +40,7 @@ add_action('wp_ajax_pdfcatalog', array('PDFCatalog', 'display'));
 // action function for above hook
 function add_pdfcatalog_menu() {
     // Add a new top-level menu (ill-advised):
-    add_menu_page(PDF_CATALOG_PLUGIN_NAME, PDF_CATALOG_PLUGIN_NAME, 1, 'pdfcatalog', array( 'PDFCatalog', 'display'));
+    add_menu_page(PDF_CATALOG_PLUGIN_NAME, PDF_CATALOG_PLUGIN_NAME, 'edit_pages', 'pdfcatalog', array( 'PDFCatalog', 'display'));
 }
 
 if ( is_admin() ) {

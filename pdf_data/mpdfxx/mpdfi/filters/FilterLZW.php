@@ -47,8 +47,8 @@ class FilterLZW {
 
         $this->initsTable();
 
-        $this->data = $data;
-        $this->dataLength = strlen($data);
+        $data = $data;
+        $dataLength = strlen($data);
 
         // Initialize pointers
         $this->bytePointer = 0;
@@ -130,15 +130,15 @@ class FilterLZW {
 
     // Returns the next 9, 10, 11 or 12 bits
     function getNextCode() {
-        if ($this->bytePointer == $this->dataLength) {
+        if ($this->bytePointer == $dataLength) {
             return 257;
         }
 
-        $this->nextData = ($this->nextData << 8) | (ord($this->data[$this->bytePointer++]) & 0xff);
+        $this->nextData = ($this->nextData << 8) | (ord($data[$this->bytePointer++]) & 0xff);
         $this->nextBits += 8;
 
         if ($this->nextBits < $this->bitsToGet) {
-            $this->nextData = ($this->nextData << 8) | (ord($this->data[$this->bytePointer++]) & 0xff);
+            $this->nextData = ($this->nextData << 8) | (ord($data[$this->bytePointer++]) & 0xff);
             $this->nextBits += 8;
         }
 

@@ -92,13 +92,6 @@ starting at 1, as they appear in the .ttc file e.g.
 */
 
 $this->fontdata = array(
-	"neosanspro" => array(
-		'R' => "NeoSansPro.ttf",
-		'B' => "NeoSansProBold.ttf",
-		),
-  "neosansprolight" => array(
-		'R' => "NeoSansProLight.ttf",
-		),
 	"allura" => array(
 		'R' => "Allura-Regular.ttf",
 		),
@@ -112,12 +105,12 @@ $this->fontdata = array(
 		'R' => "ZonaPro-Thin.ttf",
 		'B' => "ZonaPro-Bold.ttf",
 		),
-	/*"bebasneue" => array(
+	"bebasneue" => array(
 		'R' => "BebasNeueRegular.ttf",
 		'B' => "BebasNeueBold.ttf",
 		'I' => "BebasNeueRegular.ttf",
 		'BI' => "BebasNeueRegular.ttf",
-		),*/
+		),
 	"proximanova" => array(
 		'R' => "ProximaNova-Light.ttf",
 		'B' => "ProximaNova-Bold.ttf",

@@ -23,7 +23,7 @@ Excellent solution for catalog creating, It contained several catalog templates.
 User can create catalog for all products or a part of products which user searching and choosing. 
 All categories and products information is usability. 
 
-NOTE: We can create templates according to your needs and using your own design. In case if you need your custom template develpoment feel free to send reuqest to Ovologics team 
+NOTE: We can create templates according to your needs and using your own design. In case if you need your custom template develpoment feel free to send request to Ovologics team here: ovologics@gmail.com
 
 == Installation ==
 
@@ -39,14 +39,23 @@ Activate PDF Catalog from your Plugins page.
 
 = Do you provide support service =
 
-In case if you need to order additional services or paid customization, we are glad to help you :)
+In case if you need to order additional services or paid customization, we are glad to help you :). Please visit: http://store.ovologics.com/services
+
+= Do you provide custom development =
+Yes, Ovologics team is able to develop any custom changes regarding WordPress/WooCommerce etc. Please contact us: ovologics@gmail.com
 
 == Changelog ==
 
-= 1.0.0.8 =
+= 1.0.4 =
+Fixed installation issue and compatibility issues with Advanced PDF Catalog
+
+= 1.0.2 =
 * First release
 
 == Upgrade Notice ==
 
-= 1.0.0.8 =
+= 1.0.4 =
+Feel free to install the module
+
+= 1.0.2 =
 Feel free to install the module

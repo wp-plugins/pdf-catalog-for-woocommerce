@@ -387,7 +387,9 @@ class PDFCatalog {
     	wp_enqueue_style( 'getpdf.css');
     	wp_register_style( 'jquery-ui-1.8.16.custom.css', PDF_CATALOG__PLUGIN_URL . 'view/stylesheet/ui/themes/ui-lightness/jquery-ui-1.8.16.custom.css', array(), PDF_CATALOG_VERSION );
     	wp_enqueue_style( 'jquery-ui-1.8.16.custom.css');
-    	
+    
+    	wp_register_script( 'jquery-ui-1.8.16.custom.min.js', PDF_CATALOG__PLUGIN_URL . 'view/js/jquery-ui-1.8.16.custom.min.js', array('jquery','postbox'), PDF_CATALOG__PLUGIN_URL );
+    	wp_enqueue_script( 'jquery-ui-1.8.16.custom.min.js' );
     	wp_register_script( 'getpdf.js', PDF_CATALOG__PLUGIN_URL . 'view/js/getpdf.js', array('jquery','postbox'), PDF_CATALOG_VERSION );
     	wp_enqueue_script( 'getpdf.js' );
     }
