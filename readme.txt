@@ -3,8 +3,8 @@ PDF Catalog for Woocommerce
 Contributors: (ovologics)
 Donate link: http://store.ovologics.com/services/service_tips
 Tags: export products to pdf, export catalog to pdf, generate pdf, print catalog, print, generate PDF catalog, products list, export products by criteria, export products by keywords and categories into pdf, generate pdf by keywords and categories
-Requires at least: 4.0 or higher
-Tested up to: 4.2
+Requires at least: 3.1 or higher
+Tested up to: 3.1
 Stable tag: /trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
