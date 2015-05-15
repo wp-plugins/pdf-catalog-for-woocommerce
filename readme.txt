@@ -46,6 +46,9 @@ Yes, Ovologics team is able to develop any custom changes regarding WordPress/Wo
 
 == Changelog ==
 
+= 1.0.12 =
+Fixed issue with predefined 10 products per catalog
+
 = 1.0.4 =
 Fixed installation issue and compatibility issues with Advanced PDF Catalog
 

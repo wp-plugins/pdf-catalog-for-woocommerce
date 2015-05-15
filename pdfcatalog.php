@@ -1,6 +1,6 @@
 <?php
 define( 'PDF_CATALOG_PLUGIN_NAME', 'PDF Catalog' );
-define( 'PDF_CATALOG_VERSION', '1.0.4' );
+define( 'PDF_CATALOG_VERSION', '1.0.12' );
 define( 'PDF_CATALOG__MINIMUM_WP_VERSION', '3.1' );
 define( 'PDF_CATALOG__PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 define( 'PDF_CATALOG__PLUGIN_DIR', plugin_dir_path( __FILE__ ) );

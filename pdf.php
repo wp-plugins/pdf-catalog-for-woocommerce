@@ -54,6 +54,7 @@ class PDFCatalog {
             $args = array( 
                 'post_type' => 'product'
             );
+            $args['posts_per_page'] = -1;
             $args['tax_query'] = array(
                 array(
                     'taxonomy'  => 'product_cat',
@@ -125,7 +126,8 @@ class PDFCatalog {
         
         $args = array( 
             'post_type' => 'product',
-            'post__in' => $products
+            'post__in' => $products,
+            'posts_per_page' => -1
         );
         
         $loop = new WP_Query( $args );
