@@ -9,7 +9,7 @@ define( 'PDF_CATALOG__PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 Plugin Name: PDF Catalog
 Plugin URI: http://www.ovologics.com
 Description: Generates a PDF catalog of products (WooCommerce)
-Version: 1.0.4
+Version: 1.0.12
 Author: ovologics
 Author URI: http://www.ovologics.com
 WC requires at least: 2.2
